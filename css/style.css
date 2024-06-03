@@ -1,0 +1,20 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 16px;
+}
+
+main section{
+    flex-basis: 48%;
+}
+section {
+    background-color: #a7d0ff69;
+    width: 450px;
+    height: 300px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: solid #003366 1px;
+    padding-left: 10px;
+}
